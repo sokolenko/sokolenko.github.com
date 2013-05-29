@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+
+body{background:url(images/fon1.jpg) repeat; padding:0px; height:100%; width:100%; margin:0px;}
+p{margin:0; padding:0;}
+
+
+.header{background:url(images/header.png); width:950px; height:73px; margin:3px auto 10px auto; padding:10px 0 0 0; font-family: 'Bad Script', cursive; text-align: center; font-size:35px; color:rgb(33, 41, 54);}
+
+.main{margin:0 auto; padding:0; width:950px; height:700px;}
+.main_left{background:url(images/main-left.png); width:380px; height:700px; padding:0;  position:absolute;}
+.main_left img{margin:20px 0 0 32px;}
+.skype{width:220px; height:60px; background:url(images/Skype.png);position:absolute; top:265px; left:40px; padding:60px 0 0 80px;}
+.skype p{font-size:25px; color:#191970;}
+.phone{width:220px; height:60px; background:url(images/Phone.png);position:absolute; top:405px; left:40px; padding:60px 0 0 80px;}
+.phone p{font-size:25px; color:#191970;}
+.e-mail{width:255px; height:60px; background:url(images/e-mail.png);position:absolute; top:545px; left:40px; padding:60px 0 0 45px;}
+.e-mail p{font-size:25px; color:#191970;}
+.main_right{width:525px; height:650px; float:right; background:url(images/main-right.png); padding:30px 20px 20px 20px;}
+.main_right p{font-size:21px; color:rgb(38, 92, 105); text-indent: 20px; text-align: justify;}
+ul{font-size:21px; color:rgb(38, 92, 105); text-indent: 20px; text-align: justify;}
+
+.footer{background:url(images/footer.png); width:950px; height:25px; margin:10px auto; padding:5px 0 0 0;}
+

@@ -1,0 +1,393 @@
+@font-face {
+  font-family: webdings;
+  src: local("webdings"),
+  url(webdings.ttf);
+}
+
+body{
+	width: 75%; /*1200/1600*/
+	margin: 0 auto;
+	
+	height: auto;
+	background: url(images/background.png);
+}
+
+.head{
+	width: 75%; /*1200/1600*/
+	position: relative;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+img{
+	margin: 0;
+	float: left;
+}
+
+.logIn a{
+
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px dotted black;
+}
+
+.autorize a{
+
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px dotted black;
+}
+
+
+.autorize a{
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px dotted black;
+}
+
+.first-title{
+
+	position: absolute;
+	width: 75%; /*1200/1600*/
+	height: 18px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.0625em; /*17/16*/
+	top:-70px;
+}
+
+.firstTitle{
+	width: 13.08333333%; /*157/1200*/
+	height: 18px;
+}
+
+.logIn{
+	position: absolute;
+	width: 3.25%; /*39/1200*/
+	height: 15px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 0.875em; /*14/16*/
+	top: 15px;
+	right: 17px;
+}
+
+.mainTitle{
+	width: 310px; /*17/16*/
+	height: 70px;
+	text-align: center;
+	margin: 0 400px 172px 436px; /*17/16*/
+	font-family: 'PT Serif', serif;
+	font-weight: 700;
+	font-size: 72px; /*17/16*/
+	padding: 0;
+}
+
+.menu{
+	width: 500px; /*17/16*/
+	height: 30px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	margin: -70px 0 0 -35px; /*17/16*/
+
+}
+
+div.menu ul{
+	list-style: none;
+} 
+
+div.menu ul li{
+	float:left;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px; /*17/16*/
+	margin:0 2px 0 3px;	/*17/16*/
+}
+
+.pic{
+	position: relative;
+}
+
+.marker{
+	position: absolute;
+	height: 20px;
+	left: -25px;
+	margin: -10px 0 0 -10px; /*17/16*/
+	
+	font-style: italic;
+	color: white;
+}
+
+#mark1{background: #ff6666;}
+
+#mark2{background: #99cc66;}
+
+#mark3{background: #6699cc;}
+
+.news{
+	width: 795px; /*17/16*/
+	min-height: 96px;
+	height: auto;
+	margin:0 0 56px 193px; /*17/16*/
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px; /*17/16*/
+}
+
+div.news img{
+	float: left;
+}
+
+div.news p{
+	margin: 9px 0 0 199px; /*17/16*/
+}
+
+
+.newsHeader{
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: underline;
+	font-size: 18px; /*17/16*/
+	margin: -2px 0 0 199px; /*17/16*/
+}
+
+div.newsHeader a{
+	text-decoration: none;
+}
+
+
+.footer{
+	margin: 146px 200px 85px 192px; /*17/16*/
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px; /*17/16*/
+
+}
+
+div.footer img{
+	margin: 0 0 9px 0; 
+}
+
+.log{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	right: 0;
+	left:0;	
+	display: none;
+	background-color: rgba(76, 81, 74, 0.4);
+	
+	}
+
+.autorize{
+	width: 205px; /*17/16*/
+	height: 110px;
+	background: white;
+	margin: 100px auto 0 auto; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-family: 'PT Sans', sans-serif;
+	padding: 80px 60px;
+	}
+
+.left-title{
+	position: absolute;
+	width: 163px; /*17/16*/
+	height: 18px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 17px; /*17/16*/
+	top:15px;
+}
+
+.main-nav{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px; /*17/16*/
+	width: 400px; /*17/16*/
+	height: 15px;
+	margin: -71px 0 0 390px; /*17/16*/
+}
+
+.main-nav a{
+	text-decoration: underline;
+	color: #003366;
+	margin: 0 16px 0 0;
+}
+
+#part1{
+	font-weight: 700;
+	color: black;
+	text-decoration: none;
+}
+
+.main-nav a:hover{
+	font-weight: 700;
+	color: black;
+	text-decoration: none;
+}
+
+.user-menu{
+	float:right;
+	width: 120px;
+	height: 25px;
+	margin: -15px 17px 0 0;
+	background: -webkit-linear-gradient(top, #ffffff 0%,#fcfcfc 5%,#fdfdfd 10%,#f9f9f9 14%,#f6f6f6 29%,#f2f2f2 33%,#f2f2f2 43%,#e8e8e8 48%,#eeeeee 52%,#e5e5e5 57%,#e7e7e7 62%,#e2e2e2 67%,#e3e3e3 71%,#dadada 95%,#bfbfbf 100%);
+	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.81);
+	border-radius: 11px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #707070;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.user-menu:hover{
+	height: 110px;
+	border-radius: 10px;
+}
+
+.user-menu-list{
+	display: none;
+}
+
+.user-menu-list ul{
+	list-style: none;
+	margin: 8px 0 0 -20px;
+}
+
+.user-menu-list ul li{
+	margin: 0 0 8px 0;
+}
+
+.user-menu-list ul li a{
+	text-decoration: underline;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #707070;
+}
+
+.user-menu-list ul li a:hover{
+	font-weight: 700;
+	color: black;
+	text-decoration: none;
+}
+
+.user-menu:hover .user-menu-list{
+	display: block;
+}
+
+.arrow{
+	float: left;
+	font-family: webdings;
+	margin: -1px 0 0 4px;
+}
+
+.user-menu p{
+	margin: 4px 0 0 4px;
+}
+
+.main-article{
+	position: absolute;
+	width: 600px;
+	height: 525px;
+	margin: 102px 0 0 390px;
+}
+
+h2{
+	font-family: 'PT Serif', serif;
+	line-height: 1.18em;
+	margin: 0 0 65px 0;
+}
+
+.main-article p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	margin: 0 0 26px 0;
+}
+
+.google-history{
+	width: 184px;
+	height: 240px;
+	margin: 230px 0 162px 191px;
+	padding: 0 18px 0 0;
+}
+
+.google-history p{
+	font-family: verdana;
+	font-size: 10px;
+	color: #686868;
+	line-height: 1.6em;
+}
+
+.google-history img{
+	margin: 0px 0 20px 0;
+}
+
+.other-news{
+	width: 800px;
+	height: 250px; 
+	margin: 0 207px 0 192px;
+	border-top: 3px solid #B2B2B2;
+}
+
+.other-news-head{
+	float: left;
+	width: 180px;
+	height: 30px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	margin: 8px 0 0;
+}
+
+.news-list{
+	display: block;
+	
+	list-style: none;
+
+}
+
+.news-list li{
+	display: inline-block;
+	margin: 3px 0 auto 17px;
+	width: 187px;
+	height: 170px;
+}
+
+.news-list li a{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	color: #003366;
+}
+
+.news-list li a:hover{
+	font-weight: 700;
+	color: black;
+	text-decoration: none;
+}
+
+.little-news{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+
+}
+
+.news-list-img{
+	margin: 0 0 7px 0;
+}
+
+.bottom{
+	width: 800px;
+	height: 110px;
+	margin: 0 207px 0 192px;
+	border-top: 1px solid #989898;
+	padding: 14px 0 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+}
+
+.in-text{
+	color: #265171;
+	text-decoration: underline;
+}
